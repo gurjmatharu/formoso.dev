@@ -76,7 +76,6 @@ export const ActionsCell: React.FC<ActionsCellProps> = ({
           <DropdownMenuItem
             onClick={() => {
               console.log('Show more info for submission', submission.id);
-              // Implement your view details logic here
             }}
           >
             View Details
